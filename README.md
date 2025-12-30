@@ -1,4 +1,4 @@
-# Brasília Augmented Reality 🌍✨
+# Brasília Augmented Reality 
 
 Augmented Reality project developed using **WebXR**, **Three.js**, and **Vite**.
 
