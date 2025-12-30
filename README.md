@@ -1,105 +1,101 @@
-# Realidade Aumentada Brasília 🌍✨
+# Brasília Augmented Reality 🌍✨
 
-Projeto de Realidade Aumentada desenvolvido em **WebXR** com **Three.js** e **Vite**.
+Augmented Reality project developed using **WebXR**, **Three.js**, and **Vite**.
 
-## 📋 Descrição
+## 📋 Description
 
-Uma aplicação web interativa que utiliza tecnologias de realidade aumentada (AR/XR) para visualizar conteúdo 3D em tempo real através do navegador.
+An interactive web application that uses augmented reality (AR/XR) technologies to visualize 3D content in real time through the browser.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **Three.js** - Biblioteca 3D para WebGL
-- **WebXR** - API padrão para realidade aumentada e virtual
-- **Vite** - Bundler e servidor de desenvolvimento
-- **JavaScript (ES6+)** - Linguagem principal
+- **Three.js** – 3D library for WebGL  
+- **WebXR** – Standard API for augmented and virtual reality  
+- **Vite** – Bundler and development server  
+- **JavaScript (ES6+)** – Main programming language  
 
-## 📦 Instalação
+## 📦 Installation
 
-### Pré-requisitos
-- Node.js 14+ instalado
+### Prerequisites
+- Node.js 14+ installed
 
-### Passos
+### Steps
 
-1. Clone ou navegue até o diretório do projeto:
+1. Clone or navigate to the project directory:
 ```bash
 cd Realidade-Aumentada-Brasilia
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-## 🎮 Como Usar
+## 🎮 How to Use
 
-### Modo Desenvolvimento
-Para iniciar o servidor de desenvolvimento com hot reload:
+### Development Mode
+To start the development server with hot reload:
 ```bash
 npm run dev
 ```
-A aplicação estará disponível em `http://localhost:5173`
+The app will be available at `http://localhost:5173`
 
-### Build para Produção
-Para gerar a build otimizada:
+### Production Build
+To generate an optimized production build:
 ```bash
 npm run build
 ```
 
 ### Preview
-Para visualizar a build de produção localmente:
+To preview the production build locally:
 ```bash
 npm run preview
 ```
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
-├── index.html          # Página principal com WebXR
-├── marker.html         # Página para marcadores AR
-├── package.json        # Configuração do projeto
-├── vite.config.js      # Configuração do Vite
-├── public/             # Arquivos estáticos
+├── index.html          # Main page with WebXR
+├── marker.html         # Page for AR markers
+├── package.json        # Project configuration
+├── vite.config.js      # Vite configuration
+├── public/             # Static assets
 └── src/
-    ├── main.js         # Script principal
-    ├── counter.js      # Componente de contador
-    └── style.css       # Estilos CSS
+    ├── main.js         # Main script
+    ├── counter.js      # Counter component
+    └── style.css       # CSS styles
 ```
 
-## 🎯 Funcionalidades Principais
+## 🎯 Main Features
 
-- ✅ Ativação de sessão WebXR com um clique
-- ✅ Renderização 3D com Three.js
-- ✅ Integração com GLTFLoader para modelos 3D
-- ✅ Iluminação dinâmica
-- ✅ Interface responsiva
+- ✅ One-click WebXR session activation  
+- ✅ 3D rendering with Three.js  
+- ✅ Integration with GLTFLoader for 3D models  
+- ✅ Dynamic lighting  
+- ✅ Responsive interface  
 
-## 🔌 Compatibilidade
+## 🔌 Compatibility
 
-Esta aplicação requer um navegador com suporte a **WebXR**:
+This application requires a browser with **WebXR** support:
+
 - Chrome 79+
 - Edge 79+
 - Firefox 55+
-- Safari 12.2+ (em dispositivos compatíveis)
+- Safari 12.2+ (on compatible devices)
 
-Para melhor experiência, use um dispositivo com suporte a AR nativo.
+For the best experience, use a device with native AR support.
 
-## 📝 Notas
+## 📝 Notes
 
-- O projeto utiliza módulos ES6
-- Certifique-se de acessar via `https://` ou `localhost` para utilizar WebXR
-- Alguns navegadores podem exigir sinalizadores experimentais habilitados
+- The project uses ES6 modules  
+- Make sure to access via `https://` or `localhost` to use WebXR  
+- Some browsers may require experimental flags enabled  
 
-## 🤝 Contribuições
+## 🤝 Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- Reportar bugs
-- Sugerir novas funcionalidades
-- Enviar pull requests
+Contributions are welcome! Feel free to:
 
-## 📄 Licença
+- Report bugs  
+- Suggest new features  
+- Submit pull requests  
 
-Este projeto é fornecido como está para fins educacionais e de desenvolvimento.
 
----
-
-**Desenvolvido com ❤️ para Brasília**
